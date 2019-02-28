@@ -87,27 +87,27 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
     }
     case steam: {
       if (record->event.pressed) {
-        return MACRO( D(LGUI), T(S), U(LGUI), W(50), T(S), T(T), T(E), T(A), T(M), W(50), T(ENT), END );
+        return MACRO( D(LGUI), T(S), U(LGUI), W(150), T(S), T(T), T(E), T(A), T(M), W(200), T(ENT), END );
       }
     }
     case ow: {
       if (record->event.pressed) {
-        return MACRO( D(LGUI), T(S), U(LGUI), W(50), T(O), T(V), T(E), T(R), T(W), T(A), T(T), T(C), T(H), W(50), T(ENT), END );
+        return MACRO( D(LGUI), T(S), U(LGUI), W(150), T(O), T(V), T(E), T(R), T(W), T(A), T(T), T(C), T(H), W(200), T(ENT), END );
       }
     }
     case dscrd: {
       if (record->event.pressed) {
-        return MACRO( D(LGUI), T(S), U(LGUI), W(50), T(D), T(I), T(S), T(C), T(O), T(R), T(D), W(50), T(ENT), END );
+        return MACRO( D(LGUI), T(S), U(LGUI), W(150), T(D), T(I), T(S), T(C), T(O), T(R), T(D), W(200), T(ENT), END );
       }
     }
     case chrome: {
       if (record->event.pressed) {
-        return MACRO(D(LGUI), T(S), U(LGUI), W(50), T(C), T(H), T(R), T(O), T(M), T(E), W(50), T(ENT), END);
+        return MACRO(D(LGUI), T(S), U(LGUI), W(150), T(C), T(H), T(R), T(O), T(M), T(E), W(200), T(ENT), END);
       }
     }
     case orgn: {
       if (record->event.pressed) {
-        return MACRO(D(LGUI), T(S), U(LGUI), W(50), T(O), T(R), T(G), T(I), T(N), W(50), T(ENT), END);
+        return MACRO(D(LGUI), T(S), U(LGUI), W(150), T(O), T(R), T(G), T(I), T(N), W(200), T(ENT), END);
       }
     }
   }
